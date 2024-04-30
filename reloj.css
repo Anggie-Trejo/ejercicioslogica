@@ -1,0 +1,23 @@
+body
+{
+    margin:0;
+    width: 100 vw;/*ancho */
+    height: 100 vh;
+    display: grid; /*contenedores*/
+    place-items: center;
+    background: black;
+}
+
+#watch
+{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid cyan;
+    color:cyan;
+    border-radius: 50%;/*circulo*/ 
+    font-family: monospace;
+    font-size: 1.7rem;
+
+}
